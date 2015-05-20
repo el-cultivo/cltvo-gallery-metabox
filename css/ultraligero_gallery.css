@@ -1,0 +1,42 @@
+.div_galeria, .div_quitar, .linea, .div_quitar {
+  display: block	 !important;
+  width: 100% !important; }
+
+.ui-state-highlight {
+  width: 150px;
+  height: 150px;
+  border: 1px dotted black;
+  margin: 0 1em 1em 0; }
+
+.borrar-img {
+  position: absolute;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 3px;
+  margin-left: 125px;
+  background-color: #FFFFFF; }
+  .borrar-img strong {
+    font-weight: bold !important;
+    color: #000000; }
+    .borrar-img strong:hover {
+      color: #0074a2; }
+
+.gal_vacia {
+  display: none; }
+
+.div_img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 5px; }
+
+.div_quitar {
+  text-align: right; }
+  .div_quitar .borrar-galeria:hover {
+    cursor: pointer; }
+
+.div_galeria {
+  overflow: hidden;
+  min-height: 150px; }
+
+/*# sourceMappingURL=ultraligero_admin.css.map */
